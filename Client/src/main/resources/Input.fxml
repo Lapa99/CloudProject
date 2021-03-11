@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: #778899;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.InputController">
+   <children>
+      <TextField fx:id="loginField" layoutX="4.0" layoutY="31.0" prefHeight="25.0" prefWidth="217.0" promptText="Login" />
+      <PasswordField fx:id="passField" layoutX="4.0" layoutY="63.0" prefHeight="25.0" prefWidth="217.0" promptText="Password" />
+      <Label layoutX="7.0" layoutY="-3.0" prefHeight="34.0" prefWidth="210.0" text="Autorization">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="authButton" layoutX="144.0" layoutY="97.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="77.0" text="Enter" />
+      <Button fx:id="loginSignUp" layoutX="7.0" layoutY="97.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="130.0" text="Register now" />
+   </children>
+</AnchorPane>
